@@ -12,3 +12,15 @@ body{
     height: 100vh;
 }
 
+header{
+    height: 100px;
+}
+
+main{
+    background-color: #7fffd4;
+    flex-grow: 1;
+}
+
+footer{
+    height: 100px;
+}
