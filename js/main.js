@@ -8,11 +8,11 @@ for(let i = 0; i <= 100; i++){
     //inserisco contenuto nel mio div
     boardCell.innerHTML = i;
     //assegno una classe al mio div
-    boardCell.classList.add("board_number");
+    boardCell.classList.add("board_number_hard");
     //aggiungo evento click
     boardCell.addEventListener("click", function() {
-        alert(`cliccato`);
-    });
+        boardCell.classList.add("clicked");
+    } )
     //inserisco il tutto nel mio file html
     boardContainer.append(boardCell);
 
