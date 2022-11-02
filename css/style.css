@@ -25,6 +25,11 @@ footer{
     padding: 1rem;
 }
 
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .board{
     display: flex;
     flex-wrap: wrap;
