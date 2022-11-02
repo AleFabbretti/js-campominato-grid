@@ -30,6 +30,16 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
+
+#difficulty{
+    background-color: lightgray;
+    width: 150px;
+}
+
+#set{
+    width: 100px;
+}
+
 .board{
     display: flex;
     flex-wrap: wrap;
