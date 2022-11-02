@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    height: 100px;
+    padding: 1rem;
 }
 
 main{
@@ -22,5 +22,15 @@ main{
 }
 
 footer{
-    height: 100px;
+    padding: 1rem;
 }
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
